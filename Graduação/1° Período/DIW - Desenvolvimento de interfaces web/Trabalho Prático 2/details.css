@@ -1,0 +1,48 @@
+body{
+    height: 100vh;
+}
+
+#films-details{
+   color: white;
+}
+
+#films-details img{
+    filter: opacity(40%);
+    width: 100vw !important;
+    height: 400px;
+}
+
+.card-details{
+    width: 100vw !important;
+}
+
+.btn-detalhes{
+    background-color: white;
+    border: white;
+    color: black;
+    width: 20%;
+}
+
+.card-details{
+    margin-top: 20px;
+    height: 100%;
+}
+
+@media (max-width:700px) {
+    footer {
+        position: fixed;
+        bottom: 0;
+    }
+    .card-img{
+        height: 80vh !important;
+    }
+    .card-image-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .btn-detalhes{
+        width: 80vw;
+    }
+}

@@ -1,0 +1,98 @@
+*{
+    font-size: 0.9rem;
+}
+body{
+    background-color: rgb(222, 230, 236);
+}
+header {
+    display: flex;
+    background-color: #3BCC42;
+    margin: 0; 
+    padding: 0;
+    min-height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo{
+    max-width: 50px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+#image-and-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#header-nav{
+    padding-right: 40px;
+}
+#register-buttons{
+    display: flex;
+    justify-content: flex-end;
+}
+.btn{
+    font-size: 0.7rem;
+}
+footer{
+    display: flex;
+    background-color: #3BCC42;
+    margin: 0; 
+    padding: 0;
+    min-height: 200px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#logo-nav-footer{
+    display: flex;
+}
+#footer-nav{
+    display: flex;
+    flex-direction: column;
+}
+#logo-footer{
+    display: flex;
+    align-items: center;
+}
+#logo-footer img{
+    max-width: 100px;
+    margin-right: 100px;
+}
+#register-buttons{
+    margin: 20px;
+}
+#content-img-banner{
+    display: flex;
+    justify-content: center;
+}
+#banner-text{
+    margin: 20px 0;
+}
+.titulo-noticia{
+    margin: 20px 0;
+}
+.content-noticia{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.navbar-toggler{
+    background-color: #32ac38;
+}
+.btn{
+    background-color: #32ac38;
+    color: white;
+}
+
+@media screen and (max-width: 540px) {
+    #logo-footer{
+        display: none;
+    }
+    #titulo{
+        display: none;
+    }
+    footer{
+        display: block;
+    }
+}

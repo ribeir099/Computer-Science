@@ -1,0 +1,69 @@
+Link do site com os links interessantes sobre scratch:
+
+
+	Podcasts:
+
+		- Crianças, jovens e programação (https://www.hipsters.tech/criancas-jovens-e-programacao-hipsters-65/): Um episódio de um podcast onde discutem a inportância de ensinar crianças desde pequenas a lógica de programação através do Scratch.
+	  
+		- A história da linguagem de programação Scratch (https://www.spreaker.com/user/radin/podcast-episodio19): Um episódio de um podcast onde é falado sobre história da linguagem de programação Scratch e de como ele é utilizado na educação.
+	  
+		- Pensamento Computacional III - Scratch parte 1, 2 e 3 (https://anchor.fm/aulas-univesp/episodes/Pensamento-Computacional-III---Scratch-parte-1--2-e-3-eh7pmr): Um episódio de um podcast que é uma conversão de uma aula da univesp de vídeos para podcasts. Nessa aula é abordado sobre o Scratch e como utilizá-lo.
+	  
+	  
+	Artigos Científicos:
+
+		- O USO DA PROGRAMAÇÃO SCRATCH PARA O DESENVOLVIMENTO DE HABILIDADES EM CRIANÇAS DO ENSINO FUNDAMENTAL (https://repositorio.utfpr.edu.br/jspui/bitstream/1/2462/1/PG_PPGECT_M_Castro%2C%20Adriane%20de_2017.pdf): Nesse artigo científico é tratado da inserção de programação para crianças dos anos iniciais do ensino fundamental de uma escola municipal da cidade de Ponta Grossa. Esta pesquisa usou a abordagem do Construtivismo de Jean Piaget em busca de compreender o desenvolvimento da criança e também a perspectiva construcionista de Seymour Papert, pela relação com computadores e aprendizado.
+		
+		- A utilização do Scratch como ferramenta de ensino para criação de sequências didáticas com o desenvolvimento de simuladores e animações (https://repositorio.unesp.br/bitstream/handle/11449/182421/ribeiro_rc_me_prud.pdf?sequence=3&isAllowed=y): Nesse artigo científico é desenvolvido sequências didáticas utilizando recursos de programação por meio da plataforma Scratch. Dessa forma, a elaboração da sequência didática usando o Scratch, conterá ferramentas que poderão proporcionar aprendizagem significativa.
+		
+		- SCRATCH PARA PROFESSORES: PROPOSTA DE CONSTRUÇÃO DE OBJETOS DE APRENDIZAGEM (http://repositorio.ufpa.br/jspui/bitstream/2011/12987/1/Dissertacao_ScratchProfessoresProposta.pdf): Nesse artigo científico é o apresentado a concepção, desenvolvimento, testagem e validação de um produto educacional, que é um material textual em formato PDF. O material propõe o processo de construção de objetos de aprendizagem por meio da linguagem de programação scratch. 
+		
+		- COMPUTAÇÃO NA ESCOLA PARA MULHERES:USO DO SOFTWARE SCRATCH COM ALUNAS DO ENSINO MÉDIO COMO INCENTIVO AS ÁREAS DE COMPUTAÇÃO. (https://editorarealize.com.br/editora/anais/conedu/2019/TRABALHO_EV127_MD1_SA19_ID14865_02102019200509.pdf): Nesse artigo científico é exposto relatos de experiências vivenciadas na implementação de um projeto de extensão, visando o ensino da programação por meio do Software Scratch para alunas do ensino médio como foco no incentivo para mulheres nas áreas de computação.
+		
+		- JOGO NO SCRATCH COMO OBJETO DE APRENDIZAGEM PARA A PROMOÇÃO DA ALFABETIZAÇÃO CIENTÍFICA E TECNOLÓGICA (http://seer.upf.br/index.php/rbecm/article/view/12916): Nesse artigo científico é analisado a contribuição do Objeto de Aprendizagem (OA) tipo jogo, desenvolvido no Scratch, como ferramenta pedagógica na promoção da Alfabetização Científica e Tecnológica (ACT) sob o tema Alimentação Saudável.
+		- Ensino e Aprendizado de Lógica Através do Scratch (https://www.upf.br/_uploads/Conteudo/senid/2018-artigos-completos/178339.pdf): Nesse artigo científico é apresentado como o uso do Scratch contribui para a aprendizagem dos alunos, os fazendo aprender de forma lúdica torna o aprendizado mais significativo. O uso do Scratch potencializa o raciocínio lógico matemático contribuindo para a aprendizagem. 
+		
+		
+	Documentos:
+	
+		- Explorando o Scratch (https://repositorio.ul.pt/bitstream/10451/847/56/20155_ulsd_dep.17852_tm_anexo39.pdf): Esse documento é um guia prático de utilização do Scratch, com lições didáticas para o ensino de como utilizar essa linguagem de programação.
+		
+		- GUIA DE RECURSOS DO SCRATCH PARA EDUCADORES (https://scratchbrasil.org.br/wp-content/uploads/2020/10/GuiaScratch_Educadores_revisado_fev2020_compressed.pdf): Esse documento é um guai de recursos sobre a plataforma do Scratch e também sobre a sua programação. Voltado para ensinar os educadores de como o Scratch funciona, para eles poder o ensinar aos seus alunos.
+		
+		- PROJETO PROGRAMAÇÃO NA ESCOLA (https://www2.unifap.br/programacaonaescola/files/2018/04/GUIA-COMPLETO.pdf): Esse documento é um guia que se destina a professores que queiram apoiar o desenvolvimento de lógica computacional de forma empírica em seus alunos através da exploração de atividades com o Scratch.Este guia é uma ferramenta que dará as diretrizes para uma introdução a computação
+criativa de forma lúdica, utilizando uma abordagem teórica e prática através da linguagem Scratch, por meio do conceito de aprendizagem baseada em design.
+
+		- Guia Prático para aplicação na Educação Básica (https://educapes.capes.gov.br/bitstream/capes/566023/2/Produto%20-%20Michel%20de%20Souza%202019.pdf): Esse documento é  é apresentar as características e o funcionamento do Scratch, com o olhar voltado para sua aplicação na Educação Básica. As diversas possibilidades de criação de objetos virtuais com utilização da plataforma permitem o
+desenvolvimento de projetos atrelados aos conceitos e conteúdos de uma disciplina específica do currículo escolar, mas também projetos interdisciplinares, agregando a colaboração dos conhecimentos das diversas disciplinas curriculares e até mesmo projetos que, partindo dos interesses de cada aluno ou grupo de alunos, extrapolem para uma abordagem transdisciplinar.
+
+
+	Sites: *obs: pegar mais sites. Ex: scratch wiki
+	
+		- Scratch Brasil (http://www.scratchbrasil.net.br/): Nesse site é possível encontrar diversos conteúdos, materiais e informações sobre o Scratch.
+		
+		- Scratch Brasil - (Oficial) (https://scratchbrasil.org.br/): Nesse site é possível encontrar diversas informações, como notícias e conteúdos sobre o Scratch.
+		
+		- Scratch - Imagine, Program, Share (https://scratch.mit.edu/projects/editor/?tutorial=all): Nesse site é mostrado diversos tutorias de como utilizar todas as funções disponíveis no Scratch.
+		
+		- Scratch (https://scratch.mit.edu/): Esse é o site oficial do Scratch, onde é possível realizar a programação do Scratch, ver diversos projetos desenvolvidos usando Scratch e também uma série de informações, vídeos e tutorias de como utilizar a plataforma.
+		
+		
+	*Vídeos: 
+	
+		- How To Make Golf Game In Scratch 3.0 (https://www.youtube.com/watch?v=Cq0XWpSpnxQ): Nesse vídeo é mostrado como fazer um jogo de golf em 2d utilizando o Scratch.
+		
+		- How to Make a Flappy Bird Game in Scratch (Part 1) - (https://www.youtube.com/watch?v=PfQiTBbHHY4): Esse vídeo é o primeiro de cinco vídeos onde é mostrado, utilizando o Scratch, como fazer o jogo "Flip Bird".
+		
+		- How to make a 3D Engine in Scratch 3.0 (https://www.youtube.com/watch?v=tX_x4iYvspU): Esse vídeo é o primeiro de quatro vídeos onde é mostrado como fazer uma 3D Engine no Scratch.
+		
+		- Code a Platformer Game | 1. The Basics (https://www.youtube.com/watch?v=D16hTnDGweo): Esse vídeo é o primeiro de doze vídeos onde é mostrado como fazer um jogo de plataforma no Scratch.
+		
+		- Canal "Coding With Chris" (https://www.youtube.com/c/CodingWithChris/videos): Um canal com diversos videos ensinando a fazer diferentes tipos de jogos no Scratch.
+		
+		- Canal "Warfame" (https://www.youtube.com/channel/UCXJDb8HZ8Hz9HDxWL-wRvmg/videos): Um canal com diversos videos ensinando a fazer diferentes tipos de jogos no Scratch.
+		
+		- Canal "griffpatch" (https://www.youtube.com/c/griffpatch/videos): Um canal com diversos videos ensinando a fazer diferentes tipos de jogos no Scratch.
+		
+		- Canal "Scratch Team" - Tutorials (https://www.youtube.com/playlist?list=PLpfxVARjkP-_f-E9IU6IHmy5ECj0HqiLB): Uma playslist do canal oficial do Scratch no Youtube, onde possui vários tutorial sobre o básico das funcionalidades do Scratch.
+
+

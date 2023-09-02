@@ -1,0 +1,54 @@
+group: SAM
+
+PROFESSOR = {
+CPF:number, Nome:string, Sexo:string, Salario:number, Departamento:number
+12345678900,'Ricardo Machado','M',1200.00,1
+12345678901,'Manuela Costa','F',2700.00,3
+21345678900,'Carlos A. Martins','M',3200.00,1
+32145678900,'Ana Maria Freitas','F',7500.00,2
+}
+
+DEPARTAMENTO = {
+Numero:number, Nome:string
+1,'Administrativo'
+2,'Comercial'
+3,'Tecnologia'
+}
+
+
+Consultas:
+----------
+σ Sexo='F' (PROFESSOR)
+σ Sexo='M' ∧ Salario > 3000 (PROFESSOR)
+π Nome, Salario (PROFESSOR)
+π Departamento,Sexo (PROFESSOR)
+ρ CPF ← CPF, Name ← Nome, Gender ← Sexo, Salary ← Salario, DNum ← Departamento (ρ TEACHER (PROFESSOR))
+
+Slide 16:
+---------
+TEACHER = ρ CPF ← CPF, Name ← Nome, Gender ← Sexo, Salary ← Salario, DNum ← Departamento (ρ TEACHER (PROFESSOR))
+π Name, Salary (TEACHER)
+
+TEACHER = ρ Name ← Nome, Salary ← Salario (π Nome, Salario (ρ TEACHER PROFESSOR))
+π Name, Salary (TEACHER)
+
+MAN = ρ CPF ← CPF, Name ← Nome, Gender ← Sexo, Salary ← Salario, DNum ← Departamento (σ Sexo = 'M' (ρ MAN (PROFESSOR)))
+σ Gender = 'M' (MAN)
+
+Produto:
+-------
+PROFESSOR ⨯ DEPARTAMENTO
+σ Departamento = Numero (PROFESSOR ⨯ DEPARTAMENTO)
+
+PROFESSOR ⨝ Departamento = Numero DEPARTAMENTO
+
+Operacoes para Junção Natural:
+-----------------------------
+A = ρ Numero ← Numero, DNome ← Nome (ρ A (DEPARTAMENTO))
+B = ρ CPF ← CPF, Nome ← Nome, Sexo ← Sexo, Salario ← Salario, Numero ← Departamento (ρ B (PROFESSOR))
+A ⨝ B
+
+Agregação:
+----------
+γ; count(CPF)-> TotalCpfs, sum(Salario)-> somaSalarios ( PROFESSOR )
+γ Sexo; sum(Salario)-> somaSalarios, avg(Salario) -> mediaSalarial ( PROFESSOR )

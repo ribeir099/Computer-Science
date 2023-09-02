@@ -1,0 +1,120 @@
+body {
+  box-sizing: border-box;
+  font-size: 1.4rem;
+  background-color: rgb(202, 202, 202);
+}
+
+.carousel-item img {
+    width: 50vw;
+    height: 50vh;
+}
+
+.iframe-style {
+  width: 80%;
+  height: 500px;
+  display: flex;
+  margin: 0 auto;
+}
+header, footer {
+  background-color: #2170aa;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+footer {
+  height: 150px;
+  justify-content: space-evenly;
+}
+
+#text-footer {
+  margin: 0 auto;
+}
+
+header a, footer a {
+  color: white;
+  text-align: none;
+  text-decoration: none;
+}
+
+header nav a, footer nav a {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+a:hover{
+  text-decoration: none;
+  color: rgb(167, 167, 167);
+}
+
+.container-header, .container-footer {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+}
+
+.container-footer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#arduino-bot {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+#arduino-bot div {
+  margin: 0 auto;
+}
+
+.iframe-alone {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.container-exemplo {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.iframe-exemplo, .iframe-docs {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.videos, .podcast {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.videos-iframe, .podcast-iframe {
+  margin-right: 20px;
+}
+
+#podcast-2 {
+  width: 100%;
+  height: 315px;
+}
+
+#links-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#links-container a {
+  text-decoration: none;
+}
+
+#links-container a:hover {
+  color: white;
+}

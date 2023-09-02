@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    font-size: 120%;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: 260px;
+}
+
+.header {
+    background-color: #727272;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #727272;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+
+}
+
+.menu li {
+    list-style: none;
+    margin-left: 10px;
+}
+
+/* CSS Flexbox 1 - Início */
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flex > div {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+/* CSS Flexbox 1 - Fim */

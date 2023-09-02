@@ -1,0 +1,62 @@
+.logo {
+    max-width: 100px;
+}
+
+.menu_header {
+    margin: 0 auto;
+}
+
+.traile-filme {
+    height: 800px;
+}
+
+#lancamentos {
+    background-color: rgb(221, 221, 221);
+}
+
+#lancamentos h1{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+#destaque {
+    margin-top: 40px;
+}
+
+#avaliacoes {
+    margin-top: 40px;
+}
+
+#entrevistas {
+    margin-top: 40px;
+    background-color: rgb(221, 221, 221);
+}
+
+#curiosidades {
+    margin-top: 40px;
+}
+
+footer {
+    background-color: rgb(117, 117, 117);
+    height: 100px;
+    color: white;
+    margin-top: 20px;
+}
+
+footer p {
+    padding-top: 40px;
+}
+
+.badge {
+    background-color: rgb(117, 117, 117);
+}
+
+.navbar {
+    background-color: rgb(158, 158, 158) !important;
+}
+
+.cards {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

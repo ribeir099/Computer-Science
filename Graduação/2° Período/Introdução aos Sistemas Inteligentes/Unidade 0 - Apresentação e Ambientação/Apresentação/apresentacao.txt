@@ -1,0 +1,19 @@
+Caros alunos,
+
+Sejam bem-vindos à disciplina de Introdução aos Sistemas Inteligentes.
+
+A Inteligência Artificial (IA) está presente em vários aspectos da nossa vida, mesmo que não sejamos capazes de perceber. Em 2019, 37% de todas as empresas americanas já haviam implementado ou utilizado a Inteligência Artificial de alguma forma, obtendo um investimento mundial estimado em US$35,8 bilhões no ano (fonte: Gartner (Links para um site externo.), 2019). Em 2021, 80% das tecnologias emergentes serão fundamentadas em IA (Gartner (Links para um site externo.), 2018).
+
+A disciplina de Introdução aos Sistemas Inteligentes irá aborda o processo de construção de produtos e serviços de software que utilizam, de alguma forma, as diversas tecnologias baseadas em Inteligência Artificial. Os benefícios da adoção da IA incluem a obtenção de vantagem competitiva, aumento de produtividade e a criação de uma experiência mais próxima do ser humano.
+
+A disciplina tem por objetivo apresentar os conceitos e área de Inteligência Artificial e desenvolver no aluno a habilidade para identificar oportunidades de uso das técnicas e tecnologias baseadas de IA em problemas de seu interesse. A disciplina ainda vai capacitar o aluno na utilização de ferramentas de Inteligência Artificial e machine learning para descoberta de padrões em imagens (faces, objetos), vídeos (emoções), falas (tradução), etc.
+
+O aprendizado de máquina é componente obrigatório dos sistemas modernos. Basicamente, onde há dado, há a necessidade de se construir modelos que aprendam com esses dados e apoiem a tomada de decisão nas diversas áreas de aplicação. Modelos podem ajudar a prever o preço de um bem em função de dados históricos ou contextuais; podem recomendar livros, filmes, ou produtos que podem ser de interesse de um consumidor; podem detectar fraudes no sistema financeiro ou detectar precocemente a iminência de uma falha no setor da indústria. Um módulo será dedicação a construção de aplicações inteligentes, como por exemplo, construir um chatbots.
+
+Por isso, aproveite cada conteúdo, pois temos certeza de que serão relevantes em sua carreira profissional, não importa o cargo que ocupar.
+
+Para que tais objetivos sejam atingidos e as competências desenvolvidas, é muito importante sua participação e envolvimento em todas as atividades. Tenho certeza que suas contribuições e experiências pessoais ajudarão muito nos debates e no aprendizado de toda turma.
+
+Estaremos também sempre presentes para ajudar nessa caminhada e espero que no final a experiência tenha sido rica e gratificante.
+
+Um abraço!

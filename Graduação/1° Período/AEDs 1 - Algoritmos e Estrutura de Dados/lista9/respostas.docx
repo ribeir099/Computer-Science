@@ -1,0 +1,12 @@
+﻿PONTIFÍCIA UNIVERSIDADE CATÓLICA DE MINAS GERAIS
+Instituto de Ciências Exatas e de Informática
+Algoritmos e Estruturas de Dados 1 (AEDS 1)
+Aluno: Gabriel Ribeiro Souza Silva
+
+
+Lista de Exercícios – Classes e exceções
+
+
+1 - O manipulador de exceções é um código que captura a exceção lançada e a manipula. Sua principal vantagem é que precisamos escrever apenas uma vez o código de manipulação de uma exceção que pode ocorrer em uma região controlada. O bloco de código onde as exceções podem ocorrer é chamado de região protegida. Ele é indicado pelo comando try. Para associarmos uma determinada exceção a um bloco de código que a manipulará, usamos uma ou mais cláusulas catch. No bloco try colocamos os comandos que podem gerar exceção. Neste bloco, podem haver comandos que gerem exceções diferentes, e cada uma possui um catch correspondente. É fundamental, algumas vezes, que determinadas exceções que podem ser geradas em métodos ou situações especificas sejam tratadas. A palavra reservada throw dispara um erro criado pelo programa em tempo de execução. Essa instrução deve ser colocada dentro de um bloco try.
+Como exemplo, podemos citar uma operação com números, supondo que qualquer número par é valido, e ímpar inválido.
+

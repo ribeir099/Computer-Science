@@ -1,0 +1,66 @@
+  Links interessantes sobre Arduino e Tinkercad
+
+      *Podcasts:
+
+	  - Aprenda Arduino (Sem Arduino físico) em 10 minutos (https://podtail.com/da/podcast/portal-programando/aprenda-arduino-sem-arduino-fisico-em-10-minutos-a/): Um episódio de um podcast onde ensinam a mexer no Arduino pelo Tinkercad.
+	  
+	  - Tudo sobre Arduino (https://www.lambda3.com.br/2021/03/lambda3-podcast-239-tudo-sobre-arduino/): Um episódio de um podcast onde é abordado desde o que é o Arduino, como é seu desenvolvimento e aplicabilidade em projetos até onde começar a utilizá-lo e onde comprar a placa e seus componentes.
+	  
+	  - Programming Electronics Academy Podcast (https://player.fm/series/programming-electronics-academy-podcast): Um podcast dedicado a falar sobre como programadores, amadores e outros influenciadores realizão sua visão criativa atravês do Arduino.Em cada episódio, o apresentador e convidados do programa falarão sobre seus projetos criativos e protótipos, como eles conseguiram construí-los e o que os ouvintes podem fazer para chegar lá e fazer seus próprios projetos usando o Arduino.
+	  
+	  - Link Extra (https://player.fm/podcasts/Arduino): Um site com diversos podcast que falam sobre Arduino.
+
+      *Artigos Científicos:
+
+	  - SmartHome - Automação Residencial controlada por página web (https://semanaacademica.org.br/system/files/artigos/artigo_smarthome_guilherme_de_matos_0.pdf): Nesse artigo científico é proposto um sistema de baixo custo com uma ‘interface’ da página web com fácil utilização, o mesmo trabalha com sensores de controle ligados a um Arduíno para o controle de equipamentos domésticos como lâmpadas e janelas. Espera-se com esse projeto proporcionar mais conforto para o morador e também promover para o mesmo uma maior segurança e diminuição de seus gastos.
+
+	  - ARDUINO: UMA TECNOLOGIA NO ENSINO DE FÍSICA (https://www.uricer.edu.br/site/pdfs/perspectiva/143_430.pdf): Nesse artigo científico é mostrado o Arduino como uma plataforma alternativa na aquisição automática de dados em experimentos didáticos de Física via porta USB do computador, desse modo sendo desenvolvidos experimentos didáticos que permitam um ensino e uma aprendizagem de Física mais significativo.
+	  
+	  - A UTILIZAÇÃO DO EMULADOR DE ARDUINO TINKERCAD PARA O ENSINO DE LÓGICA DE PROGRAMAÇÃO E ELETRÔNICA (http://bdta.ufra.edu.br/jspui/bitstream/123456789/1702/1/A%20UTILIZA%C3%87%C3%83O%20DO%20EMULADOR%20DE%20ARDUINO%20TINKERCAD%20PARA%20O%20ENSINO....pdf): Nesse artigo científico é utilizado o simulador de circuitos Tinkercad como forma de suprir o Arduino físico, pois oferece os principais componentes eletrônicos e o ambiente de programação totalmente online e gratuito. O objetivo da pesquisa foi de identificar os principais componentes disponíveis na plataforma Tinkercad, apresentar experimentos e a utilização da Linguagem Programação C através do Arduino.
+	  
+	  - Links Extras (https://www.nucleodoconhecimento.com.br/tag/arduino) (https://semanaacademica.org.br/tag/arduino): Sites que possuem vários artigos que falam sobre Arduino.
+	  
+      *Documentos:
+
+	  - Documentação de Referência da Linguagem Arduino (https://www.arduino.cc/reference/pt/): Nesse site possui toda a referêcia da linguagem Arduino, sendo do próprio site do Arduino.
+	  
+	  - Arduino Documentation (https://docs.arduino.cc/): Nesse site é possível escolher uma documentação específica para cada tipo de placa Arduino.
+	  
+      *Sites:
+
+	  - Tinkercad | Simulador de componentes eletrônicos (https://www.filipeflop.com/blog/tinkercad-simulador-de-componentes-eletronicos/): Nesse site é abordado os principais componentes e funcionalidades do Tinkercad e no final da um exemplo de como montar um circuito simples para já treinar a utilização da plataforma.
+	  
+	  - Built-in Examples (https://docs.arduino.cc/built-in-examples/): Nesse site é possível acessar exemplos para a maioria das funções do Arduino.
+	  
+	  - Archived Library Examples (https://docs.arduino.cc/library-examples/): Nesse site é possível acessar uma seleção de exemplos de bibliotecas arquivadas do Arduino.
+	  
+	  - Project Hub (https://create.arduino.cc/projecthub): Nesse site é possível acessar diversos projetos que foram realizados utilizando o Arduino.
+	  
+	  - Arduino (https://pt.wikipedia.org/wiki/Arduino): Nesse site tem desde a história, hardware e software do Arduino até aplicações e acessórios da placa.
+	  
+	  - Blog Eletrogate (https://blog.eletrogate.com/): Nesse site possui diversos projetos, tutoriais e referências relacionadas ao Arduino.
+	  
+      *Vídeos:
+
+	  - Robô Resgate XT-3 - A Robótica ao Alcance de Todos! (https://www.youtube.com/watch?v=z-TvrYKBmjc&t=260s&ab_channel=BrincandocomIdeias): Nesse vídeo é mostrado como é possível utilizar o Arduino para programar e controlar um robô pelo celular.
+	  
+	  - Garra Robôtica (https://youtu.be/Ecw3kCo4AdQ): Nesse vídeo é mostrado como programar uma garra robôtica atravês do tinkercad e dps carregando o sketch no Arduino.
+	  
+	  - Use um Arduino sem ter Arduino! (https://youtu.be/CrHJj4OQ6Sw): Nesse vídeo é mostrado como utilizar e criar projetos de Arduino utilizando o Tinkercad.
+	  
+	  - Faça o Arduino virar mouse ou teclado! (https://youtu.be/xvYE1H9gv_s): Nesse vídeo é mostrado como transformar o Arduino em um teclado ou mouse, inicialmente criando o projeto e o prototipando no Tinkercad e depois sendo carregado o sketch no Arduino físico e sendo testado na prática.
+	  
+	  - Manual Maker - Projetos (https://youtube.com/playlist?list=PLYjrJH3e_wDPwKigz0AcIgzk9BF4lqDuy): Uma playlist do canal "Manual do Mundo", em que possui vários projetos utilizando o Arduino e o Tinkercad.
+	  
+	  - Canal "Brincando com Ideias" (https://www.youtube.com/BrincandocomIdeias/videos): Um excelente canal sobre Arduino, com diversos projetos e aulas teóricas sobre Arduino. Também tendo alguns vídeos sobre o Tinkercad.
+	  
+	  - Canal "Mr Innovative" (https://www.youtube.com/MrInnovative/videos): Um canal com diversos projetos divertidos utilizando o Arduino.
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  

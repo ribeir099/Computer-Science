@@ -1,0 +1,75 @@
+tamanho de bloco de disco é de 2KB, tamanho fixo, não espelhado
+
+1- Atores (10.000 registros) → Codigo (16B), Nome (160B):
+	t = 2KB
+	r = 176B
+	n = 10000
+	Blocagem - F = 2K / 176 =~ 11,3636(piso) = 11
+	Espaço não usado - U = 2K - (11 X 176) = 64B
+	Número de blocos - B = 10K / 11 =~ 909,0909(teto) = 910
+	Consumo de espaço = 910 X 2K = 1820000B = 1,82MB
+	
+2 - Clientes (100.000 registros) → CPF (11B), Nome (160B), Endereco (200B), Telefone (16B), DataNascimento (12B), Sexo (1B)
+	t = 2KB
+	r = 400B
+	n = 100K
+	F = 2K / 400 = 5
+	U = 2K - (5 X 400) = 0B
+	B = 100K / 5 = 20K
+	Consumo de espaço = 20K X 2K = 40MB
+	
+3 - Filmes (2.000.000 registros) → Codigo (16B), Nome (160B), Genero (80B)
+	t = 2KB
+	r = 256B
+	n = 2M
+	F = 2K / 256 = 7,8125 = 7
+	U = 2K - (7 X 256) = 208B
+	B = 2M / 7 =~ 258714,286 = 285.715
+	Consumo de espaço = 285.715 X 2K = 571.430.016B
+	
+4 - Funcionarios (3.500 registros) → CPF (11B), Nome (160B), CPF Surpevisor(11B)
+	t = 2KB
+	r = 182B
+	n = 3,5K
+	F = 10
+	U = 180B
+	B = 350
+	Consumo = 700KB
+	
+5 - Midias (10.000.000 registros) → Identificador (24B), Tipo (8B), PrecoDiaria (24B), Codigo (16B)
+	t = 2KB
+	r = 72B
+	n = 10M
+	F = 27
+	U = 56B
+	B = 370371
+	Consumo = 740.742.016B
+	
+6 - Aluguel (20.000.000 registros)  → CPF (11B), Identificador (24B), DataLocacao (12B), DataDevolucao (10B), ValorPagar (24B), CPF (11B)
+	t = 2KB
+	r = 92B
+	n = 20M
+	F = 21
+	U = 68B
+	B = 952.381
+	Consumo = 1.904.761.984B
+	
+7 - Pagamentos (50.000.000 registros) → Codigo (48B), CPF (11B), Identificador (24B), DataLocacao (12B), Data (12B), Valor (24B)
+	t = 2KB
+	r = 131B
+	n = 50M
+	F = 15
+	U = 35B
+	B = 3.333.334
+	Consumo = 6.666.668.032B
+	
+8 - AtoresEmFilmes (1.000.000 registros) → Codigo (16B), Codigo (16B)
+	t = 2KB
+	r = 32B
+	n = 1M
+	F = 62
+	U = 16B
+	B = 16.130
+	Consumo = 32.260.000B
+	
+	

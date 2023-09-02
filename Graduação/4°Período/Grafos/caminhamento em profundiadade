@@ -1,0 +1,33 @@
+   1  2 3 4  5 6 
+TD 1  2 3 11 7 4
+TT 10 9 6 12 8 5
+PR -  1 2 -  2 3
+
+{1,2} = arvore
+{2,3} = arvore
+{3,6} = arvore
+{6,2} = retorno
+{2,5} = arvore
+{5,6} = cruzamento
+{1,5} = avanço
+{4,1} = cruzamento
+{4,5} = cruzamento
+
+
+   1  2  3  4  5  6  7  8
+TD 1  2  4  5  14 3  6  7
+TT 16 13 11 10 15 12 9  8
+PR -  1  6  3  1  2  4  7
+
+{1,2} = arvore
+{2,6} = arvore
+{6,3} = arvore
+{3,4} = arvore
+{4,7} = arvore
+{7,3} = retorno
+{7,6} = retorno
+{7,8} = arvore
+{8,4} = retorno
+{1,5} = arvore
+
+

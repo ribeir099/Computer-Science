@@ -1,0 +1,19 @@
+HO08:
+
+	1:SELECT A.first_name, A.last_name
+	FROM actors as A JOIN directors as B ON A.first_name = B.first_name AND A.last_name = B.last_name
+	
+	2:SELECT A.first_name, A.last_name
+	FROM actors AS A JOIN directors AS B ON A.first_name != B.first_name AND A.last_name != B.last_name
+	
+	3:SELECT A.first_name, A.last_name, B.first_name, B.last_name
+	FROM actors AS A JOIN directors AS B ON A.first_name != B.first_name AND A.last_name != B.last_name 
+	
+	4:SELECT movies.name FROM movies JOIN movies_directors ON director_id = NULL
+	
+	5:SELECT actors.first_name,actors.last_name, COUNT(roles.movie_id) AS filmes 
+	FROM actors INNER JOIN roles ON actors.id=roles.actor_id 
+	GROUP BY actors.first_name,actors.last_name
+	HAVING filmes <= 2
+	
+	6:

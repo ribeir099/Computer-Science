@@ -1,0 +1,32 @@
+.container-search{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 60vw;
+    margin-top: 20px;
+}
+
+#films-search{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.subcontainer-search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 100%;
+}
+
+.card-image{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.card-body{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}

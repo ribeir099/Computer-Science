@@ -1,0 +1,5 @@
+Tipos de layout:
+
+- Layout Líquido: baseado em %, o layout se encaixa ao tamanho da tela.
+- Fixo: baseado em px.
+- Responvivo: baseado em %(cerca de 60%) e px(cerca de 40%), é um layout inteligente. É o layout mais caro e mais demorado para ser feito.

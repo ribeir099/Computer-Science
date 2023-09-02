@@ -1,0 +1,3 @@
+Layout flex: indicado para alinhar componentesem uma única dimensão, linha ou coluna.
+
+Grid Layout: indicado para interação entre linha e coluna.

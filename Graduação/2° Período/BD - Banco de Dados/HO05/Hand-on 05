@@ -1,0 +1,42 @@
+HO05:
+
+	1:
+	ACTORS_DIRECTORS = directors ⨝ directors.first_name = actors.first_name ∧ directors.last_name = actors.last_name (actors)
+	π actors.first_name, actors.last_name (ACTORS_DIRECTORS)
+	
+	2:
+	ACTORS_DIRECTORS = directors ⨝ directors.first_name = actors.first_name ∧ directors.last_name = actors.last_name (actors)
+	NAME_ACTORS_DIRECTORS = π actors.first_name, actors.last_name (ACTORS_DIRECTORS)
+	ACTORS_NAME = π first_name, last_name (actors)
+	ACTORS_NOT_DIRECTORS = ACTORS_NAME - NAME_ACTORS_DIRECTORS
+	ACTORS_NOT_DIRECTORS
+	
+	3:
+	ACTORS_DIRECTORS = directors ⨝ directors.first_name = actors.first_name ∧ directors.last_name = actors.last_name (actors)
+	NAME_ACTORS_DIRECTORS = π actors.first_name, actors.last_name (ACTORS_DIRECTORS)
+	ACTORS_NAME = π first_name, last_name (actors)
+	ACTORS_AND_DIRECTORS = ACTORS_NAME ∪ NAME_ACTORS_DIRECTORS
+	ACTORS_AND_DIRECTORS
+	
+	4:
+	MOVIES_ID = movies ⨝ id = movie_id (movies_directors)
+	MOVIES_DIRECTORS_ID = π director_id (MOVIES_ID)
+	DIRECTORS_ID = π id (directors)
+	MOVIES_NOT_DIRECTED = MOVIES_DIRECTORS_ID - DIRECTORS_ID
+	MOVIES_NOT_DIRECTED
+	
+	5:
+	ACTORS_ROLE = roles ⨝ actor_id = id (actors)
+	ACTORS_MOVIES = γ actor_id; count(movie_id) → FILMES (ACTORS_ROLE)
+	LESS_ACTING = σ FILMES < 2 (ACTORS_MOVIES)
+	ACTORS_LESS_ACTING = LESS_ACTING ⨝ actor_id = id (actors)
+	π first_name, last_name (ACTORS_LESS_ACTING)
+
+	6:
+	MOVIES_ROLES = roles ⨝ movie_id = id (movies)
+	ACTORS_MOVIES = γ movie_id, year; count(movie_id) → ATORES (MOVIES_ROLES)
+	AM_GENRES = ACTORS_MOVIES ⨝ roles.movie_id = movie_id (movies_genres)
+	AM_GENRES_1 = σ ATORES < 2 (AM_GENRES)
+	GENRES_YEAR = γ genre, year; avg(ATORES) → MEDIA (AM_GENRES_1)
+	GENRES_YEAR
+		

@@ -1,0 +1,35 @@
+HO04:
+
+	1:
+	FEMALE_ACTORS = σ gender ='F'(actors)
+	π first_name, last_name (FEMALE_ACTORS)
+	
+	2:
+	MOVIES_YEAR = σ year > 1999 (movies)
+	π name (MOVIES_YEAR)
+	
+	3:
+	ALL_DIRECTORS = directors ⨝ movies_directors
+	DIRECTORS_FILTERED = π first_name, last_name, movie_id (ALL_DIRECTORS)
+	ALL_MOVIES_DIRECTORS = DIRECTORS_FILTERED ⨝ movie_id = id (movies)
+	MOVIES_DIRECTORS = π first_name, last_name, name (ALL_MOVIES_DIRECTORS)
+	MOVIES_DIRECTORS
+	
+	4:
+	BEST_MOVIES = σ rank > 6 (movies)
+	ACTORS_ROLE = roles ⨝ actor_id = id (actors)
+	MOVIES_ACTORS = BEST_MOVIES ⨝ movie_id = id (ACTORS_ROLE)
+	MOVIES_ACTORS_FILTERED = π name, first_name, last_name, role (MOVIES_ACTORS)
+	MOVIES_ACTORS_FILTERED
+	
+	5:
+	DIRECTED_MOVIES = γ director_id; count(movie_id) → FILMES (movies_directors) 
+	MOVIES_DIRECTORS = DIRECTED_MOVIES ⨝ director_id = id (directors)
+	π first_name, last_name, FILMES (MOVIES_DIRECTORS)
+	
+	6:
+	γ genre; count(movie_id) → FILMES (movies_genres) 
+	
+	7:
+	MOVIES_GENRES = movies ⨝ movie_id = id (movies_genres)
+	γ genre; avg(rank) → MEDIA, min(rank) → MINIMO, max(rank) → MAXIMO (MOVIES_GENRES) 

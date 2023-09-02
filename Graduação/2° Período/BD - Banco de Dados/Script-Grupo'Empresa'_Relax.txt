@@ -1,0 +1,72 @@
+group: EMPRESA 
+
+FUNCIONARIO = {
+Primeiro_nome:string, Nome_meio:string,Ultimo_nome:string,Cpf:number,Data_nascimento:string,Endereco:string,Sexo:string, Salario:number, Cpf_supervisor:number, Numero_departamento:number
+'João','B','Silva',1234567,'09/02/1965','Rua das Flores, 751, São Paulo SP','M',	30000,3334455,5
+'Fernando','T','Wong',3334455,'08/12/1955','Rua da Lapa, 34, São Paulo, SP','M',40000,8886655,5
+'Alice','J','Zelaya',9998877,'19/01/1968','Rua Souza Lima, 35, Curitiba, PR','F',25000,9876543,4
+'Jennifer','S','Souza',9876543,'20/06/1941','Av. Arthur de Lima, 54, Santo Amaro, SP','F',43000,8886655,4
+'Ronaldo','K','Lima',6668844,'15/09/1962','Rua Rebouças, 65, Piracicaba, SP','M',38000,3334455,5
+'Joice','A','Leite',4534534,'31/07/1972','Av. Lucas Obes, 104, São Paulo, SP','F',25000,3334455,5
+'André','V','Pereira',9879879,'29/03/1969','Rua Timbira, 35, São Paulo, SP','M',25000,9876543,4
+'Jorge','E','Brito',8886655,'10/11/1937','Rua do Horto, 47, São Paulo, SP','M',55000,NULL,1
+}
+
+DEPARTAMENTO = {
+Nome_departamento:string,Numero_departamento:number,Cpf_gerente:number,Data_inicio_gerente:string
+'Pesquisa',5, 3334455,'22/05/1988'
+'Adminstração',4,9876543,'01/01/1995'
+'Matriz',1,8886655,'19/06/1981'
+}
+
+LOCALIZACOES_DEPARTAMENTO = {
+Numero_departamento:number,Local:string
+1,'São Paulo'
+4,'Mauá'
+5,'Santo Amaro'
+5,'Itú'
+5,'São Paulo'
+}
+
+PROJETO = {
+Nome_projeto:string,Numero_projeto:number,Local_projeto:string,Numero_departamento:number
+'ProdutoX',1,'Santo Amaro',5
+'ProdutoY',2,'Itú',5
+'ProdutoZ',3,'São Paulo',5
+'Informatização',10,'Mauá',4
+'Reorganização',20,'São Paulo',1
+'Novosbeneficios',30,'Mauá',4
+}
+
+DEPENDENTE = {
+Cpf_funcionario:number,Nome_dependente:string,Sexo:string,Data_nascimento:string,Parentensco:string
+3334455,'Alícia','F','05/04/1986','Filha'
+3334455,'Tiago','M','25/10/1983','Filho'
+3334455,'Janaína','F','03/05/1958','Esposa'
+9876543,'Antonio','M','28/02/1942','Marido'
+1234567,'Michael','M','04/01/1988','Filho'
+1234567,'Alícia','F','30/12/1988','Filha'
+1234567,'Elizabeth','F','05/05/1967','Esposa'
+}
+
+TRABALHA_EM = {
+Cpf_funcionario:number,Numero_projeto:number,Horas:number
+1234567,1,32.5
+1234567,2,7.5
+6668844,3,40.0
+4534534,1,20.0
+4534534,2,20.0
+3334455,2,10.0
+3334455,3,10.0
+3334455,10,10.0
+3334455,20,10.0
+9998877,30,30.0
+9998877,10,10.0
+9879879,10,35.0
+9879879,30,5.0
+9876543,30,20.0
+9876543,20,15.0
+8886655,20,NULL
+}
+
+
