@@ -1,4 +1,4 @@
-.pdf
+*.pdf
 .venv
 /teste
-.docx
+*.docx
