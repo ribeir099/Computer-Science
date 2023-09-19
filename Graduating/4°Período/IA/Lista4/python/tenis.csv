@@ -1,0 +1,15 @@
+Aparencia;Temperatura;Umidade;Ventando;Jogar
+Nublado;Quente;Alta;Nao;Sim
+Chuva;Agradavel;Alta;Nao;Sim
+Chuva;Fria;Normal;Nao;Sim
+Nublado;Fria;Normal;Sim;Sim
+Sol;Fria;Normal;Nao;Sim
+Chuva;Agradavel;Normal;Nao;Sim
+Sol;Agradavel;Normal;Sim;Sim
+Nublado;Agradavel;Alta;Sim;Sim
+Nublado;Quente;Normal;Nao;Sim
+Sol;Quente;Alta;Nao;Nao
+Sol;Quente;Alta;Sim;Nao
+Chuva;Fria;Normal;Sim;Nao
+Sol;Agradavel;Alta;Nao;Nao
+Chuva;Agradavel;Alta;Sim;Nao
